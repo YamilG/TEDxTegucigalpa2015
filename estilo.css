@@ -1,0 +1,392 @@
+@font-face {
+  font-family:"Helvetica Neue Custom";
+  src:  url("fonts/hn-045-n.eot");
+  src:  url("fonts/hn-045-n.eot?#iefix") format("embedded-opentype"),
+        url("fonts/hn-045-n.woff") format("woff"),
+        url("fonts/hn-045-n.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+    font-family:"Helvetica Neue Custom";
+    src:  url("fonts/hn-055-n.eot");
+    src:  local("Helvetica Neue"),
+          url("fonts/hn-055-n.eot?#iefix") format("embedded-opentype"),
+          url("fonts/hn-055-n.woff") format("woff"),
+          url("fonts/hn-055-n.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+  font-family:"Helvetica Neue Custom";
+  src:  url("fonts/hn-075-n.eot");
+  src:  local("Helvetica Neue Bold"),
+        local("Helvetica Neue"),
+        url("fonts/hn-075-n.eot?#iefix") format("embedded-opentype"),
+        url("fonts/hn-075-n.woff") format("woff"),
+        url("fonts/hn-075-n.ttf") format("truetype");
+  font-weight: 700;
+  }
+
+@font-face {
+  font-family:"Helvetica Neue Custom";
+  src:  url("fonts/hn-085-n.eot");
+  src:  url("fonts/hn-085-n.eot?#iefix") format("embedded-opentype"),
+        url("fonts/hn-085-n.woff") format("woff"),
+        url("fonts/hn-085-n.ttf") format("truetype");
+  font-weight: 900;
+}
+body{
+	font-size: 14px;
+	margin: 0 auto;
+	font-family: "Helvetica Neue Custom", "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	max-width: 2520px;
+}
+
+.formulario textarea {
+	font-family: "Helvetica Neue Custom", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+img{
+	display: inline-block;
+	vertical-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.formulario p a {
+	color: #FF2B06 !important;
+}
+
+
+nav{
+	display: inline-block;
+	margin: 0 50px;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: inline-block;
+}
+nav ul li{
+	display: inline-block;
+	margin: 2px;
+}
+nav ul li a {
+	margin: 8px;
+	color: #aaa;
+	font-size: 15px;
+	vertical-align: center;
+	transition: all 500ms;
+}
+
+nav ul li a:hover {
+	color: #FF2B06;
+}
+
+header{
+	border-top: 10px solid #FF2B06;
+	padding: 0 0 20px 0;
+	-webkit-box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.1);
+box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.1);
+}
+
+.hide {
+	display: none;
+}
+.menu{
+	margin: 0 auto;
+	height: 60px;
+	line-height: 80px;
+	padding-bottom: 20px;
+}
+
+.menu img {
+	vertical-align: middle;
+}
+
+#logo{
+	width: 230px;
+	height: auto;
+	margin-right: 20px;
+	margin: 10px;
+}
+.bot{
+	width: 24px;
+	margin: 2px;
+}
+
+.container{
+	background-image: url("tedxt/MainHeader.jpg");
+	background-size: 100%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 45px;
+}
+
+.box h1{
+	font-size: 16px;
+	color: #FF2B06;
+	text-align: left;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.box span{
+	display: block;
+	font-size: 25px;
+	font-weight: bolder;
+	text-align: left;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.box{
+	background-color: white;
+	width: 700px;
+	margin: 0 auto;
+	overflow: auto;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.1);
+box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.1);
+}
+.left{
+	width: 40%;
+	float: left;
+}
+#sp{
+	float: right;
+	display: inline-block;
+	width: 59%
+}
+#ideas{
+	width: 80%;
+	margin: 5px;
+}
+.line{
+	width: 50px;
+	border-top: 2px solid #FF2B06;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+#link{
+	width: 20px;
+	float: left;
+	margin-left: 20px;
+	margin-top:115px;
+}
+iframe{
+	float: right;
+}
+#box2{
+	margin-bottom: 50px;
+}
+#leer{
+	font-size: 16px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	margin: 30px;
+	border: 1px solid #FF2B06;
+	padding: 10px 20px;
+	color: #FF2B06;
+	transition: all 500ms;
+	text-transform: uppercase;
+}
+
+#leer:hover {
+		background: #FF2B06;
+		color: white;
+}
+.bloque{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 130px;
+	margin-bottom: 130px;
+}
+.bloque p{
+	text-align: justify;
+	font-size: 16px;
+	font-weight: lighter;
+	color: grey;
+	line-height: 1.8em;
+}
+.red{
+	background-color: #262626;
+
+}
+#red1{
+	background-image: url("tedxt/cn1.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 440px;
+}
+#red2{
+	background-image: url("tedxt/cn2.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 440px;
+}
+#red3{
+	background-image: url("tedxt/cn3.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 440px;
+}
+.red p, .red h1{
+	color: white;
+}
+#red1 h1{
+	font-size: 50px;
+	padding-top: 160px;
+	display: inline-block;
+	margin-left: 15px;
+}
+.red h1{
+	font-size: 27px;
+	padding-top: 50px;
+}
+#con, #pas{
+	text-align: justify;
+	width: 30%;
+	margin-top: 8px;
+}
+#con{
+	overflow: auto;
+	margin-left: 25%;
+	padding-top: 23px;
+}
+#con div, #con img{
+	display: inline-block;
+	float: left;
+	width: 110px;
+}
+#con div{
+	padding: 10px;
+}
+#pas{
+	margin-left: 50%;
+}
+
+.grey{
+	background-color: grey;
+	background-image: url("tedxt/grey.jpg");
+	background-size: 100%;
+	height: 675px;
+	color: white;
+}
+.social span{
+	display: block;
+	padding-top: 40px;
+	margin-bottom: 8px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+.social a{
+	padding: 2px;
+}
+.social{
+	margin-bottom: 60px;
+}
+.social img{
+	width: 30px;
+}
+.columns{
+	width: 60%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.formulario form{
+	margin: 0 auto;
+	width: 500px;
+}
+.formulario label, .formulario input, .formulario textarea, .formulario span{
+	display: block;
+	text-align: left;
+	margin: 8px;
+}
+.formulario label{
+	margin-top: 10px;
+	color: #aaa;
+}
+
+.unibox {
+	padding: 30px 0;
+}
+
+.unibox p {
+	text-align: left;
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+
+.centered {
+	text-align: center !important;
+}
+
+.formulario span{
+	margin-left: 30px;
+}
+.formulario input, .formulario textarea{
+	width: 500px;
+	resize: none;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+
+	margin-bottom: 20px;
+}
+.formulario textarea{
+	height: 50px;
+}
+.formulario input[type=submit]{
+	background: none;
+	border: 1px solid white;
+	text-align: center;
+	width: 520px;
+	color: white;
+	transition: all 250ms;
+	cursor: pointer;
+	padding: 20px 0;
+	font-size: 20px;
+}
+
+.formulario input[type=submit]:hover {
+	background: #FF2B06;
+	border: none;
+}
+
+.formulario p {
+	font-size: 16px;
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	color: #999;
+}
+
+strong {
+	font-weight: 900;
+	color: #FF2B06;
+}
+
+footer{
+	background-color: #FF2B06;
+	color: white;
+}
+footer nav a {
+	font-size: 12px !important;
+	font-weight: bold;
+	color: #a61c04 !important;
+	transition: all 250ms;
+}
+
+footer nav a:hover {
+	color:white !important;
+}
